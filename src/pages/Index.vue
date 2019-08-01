@@ -44,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 h1 {
   background: linear-gradient(120deg, #6128A1, #E94B59 );
 }
