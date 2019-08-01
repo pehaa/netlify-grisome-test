@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 v-html="$page.wordPressPost.title"/>
+    <h1 class="font-display text-2xl" v-html="$page.wordPressPost.title"/>
     <img
       v-if="$page.wordPressPost.featuredMedia"
       :src="$page.wordPressPost.featuredMedia.sourceUrl"
