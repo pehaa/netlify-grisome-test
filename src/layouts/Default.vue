@@ -16,7 +16,7 @@
             <g-link class="text-primary hover:text-secondary" to="/category/utiliser">Utiliser</g-link>
           </li>
            <li class="mr-6">
-            <g-link class="text-primary hover:text-secondary" to="/category/s-inspirer">S'inspirer</g-link>
+            <g-link class="text-primary hover:text-secondary" to="/category/sinspirer">S'inspirer</g-link>
           </li>
         </ul>
       </nav>

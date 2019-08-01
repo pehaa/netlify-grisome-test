@@ -1,11 +1,12 @@
 <template>
   <Layout>
-    <h1 class="font-display text-white text-2xl" v-html="$page.wordPressPost.title"/>
+    <h1 class="font-display text-2xl" v-html="$page.wordPressPost.title"/>
     <img
       v-if="$page.wordPressPost.featuredMedia"
       :src="$page.wordPressPost.featuredMedia.sourceUrl"
       :width="$page.wordPressPost.featuredMedia.mediaDetails.width"
       :alt="$page.wordPressPost.featuredMedia.altText"
+      class="my-5"
     />
     <div v-html="$page.wordPressPost.content"/>
     <template v-if="$page.wordPressPost.categories.length">

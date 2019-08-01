@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <h1 class="font-display text-center text-6xl text-white">Bienvenue !</h1>
+    <h1 class="font-display text-center text-6xl mb-5">Bienvenue !</h1>
     <ul class="post-list">
       <li v-for="{ node } in $page.allWordPressPost.edges" :key="node.id">
         <Post :post="node" />
